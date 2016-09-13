@@ -191,4 +191,4 @@ default_orientation vertical
 exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id ~/.i3/gvfs_automount.py
 exec --no-startup-id nm-applet
-exec --no-startup-id "setxkbmap -model pc105 -layout cz,ru -variant ,phonetic -option grp:alt_shift_toggle"
+exec --no-startup-id "setxkbmap -model pc105 -layout cz,ru -variant ,phonetic -option grp:ctrl_shift_toggle"
