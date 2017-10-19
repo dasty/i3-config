@@ -197,8 +197,8 @@ exec --no-startup-id ~/.i3/gvfs_automount.py
 exec --no-startup-id nm-applet
 exec --no-startup-id "setxkbmap -model pc105 -layout cz,ru -variant ,phonetic -option grp:shift_toggle"
 
-# remember to add next four lines to .profile
+# remember to add next four lines to .bashrc
 ## inspired from https://faq.i3wm.org/question/2498/ssh-sessions-in-i3.1.html
-#if [ "$0" = "/usr/sbin/lightdm-session" -a "$DESKTOP_SESSION" = "i3" ]; then
+#if [ "$DESKTOP_SESSION" = "i3" ]; then
 #    export $(gnome-keyring-daemon -s)
 #fi
