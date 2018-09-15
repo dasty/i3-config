@@ -192,7 +192,7 @@ exec i3-config-wizard
 default_orientation vertical
 
 # Start gnome programs to simplify live
-exec --no-startup-id gnome-settings-daemon
+exec --no-startup-id /usr/lib/gnome-settings-daemon/gsd-xsettings
 exec --no-startup-id ~/.i3/gvfs_automount.py
 exec --no-startup-id nm-applet
 exec --no-startup-id "setxkbmap -model pc105 -layout cz,ru -variant ,phonetic -option grp:shift_toggle"

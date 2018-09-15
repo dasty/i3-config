@@ -7,3 +7,13 @@ FINISHING INSTALLATION
 if [ "$DESKTOP_SESSION" = "i3" ]; then
     export $(gnome-keyring-daemon -s)
 fi
+
+2) set different theme
+$ sudo apt install gnome-tweaks
+$ gnome-tweaks
+  * set Appearance => Themes => Applications => Radiance
+
+TIPS
+====
+
+XDG_CURRENT_DESKTOP=GNOME gnome-control-center
