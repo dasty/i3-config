@@ -1,0 +1,9 @@
+FINISHING INSTALLATION
+======================
+
+1) add next four lines to .bashrc
+
+# inspired from https://faq.i3wm.org/question/2498/ssh-sessions-in-i3.1.html
+if [ "$DESKTOP_SESSION" = "i3" ]; then
+    export $(gnome-keyring-daemon -s)
+fi
