@@ -2,7 +2,7 @@ FINISHING INSTALLATION
 ======================
 
 1) install extra needed packages
-$ sudo apt install xautolock vim
+$ sudo apt install xautolock vim undistract-me
 
 2) add following lines to .bashrc
 
@@ -14,6 +14,9 @@ if [ "$DESKTOP_SESSION" = "i3" ]; then
 fi
 
 export EDITOR=vim
+
+# get notification when longer command finishes
+source /etc/profile.d/undistract-me.sh
 -----EOF-----
 
 3) set different theme
