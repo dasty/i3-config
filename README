@@ -2,7 +2,7 @@ FINISHING INSTALLATION
 ======================
 
 1) install extra needed packages
-$ sudo apt install xautolock
+$ sudo apt install xautolock vim
 
 2) add following lines to .bashrc
 
@@ -12,6 +12,8 @@ cat << '-----EOF-----' >> ~/.bashrc
 if [ "$DESKTOP_SESSION" = "i3" ]; then
     export $(gnome-keyring-daemon -s)
 fi
+
+export EDITOR=vim
 -----EOF-----
 
 3) set different theme
