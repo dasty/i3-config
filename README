@@ -30,11 +30,6 @@ export EDITOR=vim
 source /etc/profile.d/undistract-me.sh
 -----EOF-----
 
-3) set different theme
-$ sudo apt install gnome-tweaks
-$ gnome-tweaks
-  * set Appearance => Themes => Applications => Radiance
-
 TIPS
 ====
 
