@@ -1,3 +1,14 @@
+INSTALLING I3
+=============
+
+1) install i3 and git
+$ sudo apt install i3 git
+
+2) clone this repo
+$ git clone https://github.com/dasty/i3-config.git ~/.i3
+
+3) log out and login again using i3
+
 FINISHING INSTALLATION
 ======================
 
