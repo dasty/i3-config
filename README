@@ -13,9 +13,12 @@ FINISHING INSTALLATION
 ======================
 
 1) install extra needed packages
-$ sudo apt install xautolock vim undistract-me
+$ sudo apt install xautolock vim undistract-me light
 
-2) add following lines to .bashrc
+2) add yourself to group video
+$ sudo vigr
+
+3) add following lines to .bashrc
 
 cat << '-----EOF-----' >> ~/.bashrc
 
