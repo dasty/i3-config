@@ -21,12 +21,6 @@ $ sudo vigr
 3) add following lines to .bashrc
 
 cat << '-----EOF-----' >> ~/.bashrc
-
-# inspired from https://faq.i3wm.org/question/2498/ssh-sessions-in-i3.1.html
-if [ "$DESKTOP_SESSION" = "i3" ]; then
-    export $(gnome-keyring-daemon -s)
-fi
-
 export EDITOR=vim
 
 # get notification when longer command finishes
