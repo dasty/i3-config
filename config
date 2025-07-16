@@ -183,7 +183,7 @@ bar {
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
+#exec i3-config-wizard
 
 # Set default orientation to vertical to better mimic WMII
 default_orientation vertical
